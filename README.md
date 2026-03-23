@@ -1,6 +1,6 @@
 # ESM3 Nanobody CDR3 Optimization
 
-基于 `ESM3_Nanobody_CDR3_Optimization_Project.md` 落地的可运行项目，用于完成纳米抗体 CDR3 重设计、结构质量评估、人源化分析和论文结果图表生成。
+基于 `ESM3_Nanobody_CDR3_Optimization_Project.md` 落地的可运行项目，用于完成纳米抗体 CDR3 重设计、结构质量评估、人源化分析。
 
 ## 项目状态
 
@@ -96,13 +96,6 @@ python -m src.esm3_nanobody.cli download-data --output-dir data/downloaded
 这会下载：
 - PDB: `1MWE`, `2P42`, `5E5E` (VHH 纳米抗体结构)
 - UniProt: `P0DTC2` (Spike), `P04626` (HER2)
-
-### 4. 生成论文图表
-
-```bash
-python -m src.esm3_nanobody.cli plot --run-dir outputs/default_run
-```
-
 ## 配置说明
 
 ### 默认配置参数
