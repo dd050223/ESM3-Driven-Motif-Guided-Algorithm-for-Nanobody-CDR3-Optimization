@@ -176,7 +176,3 @@ python -m src.esm3_nanobody.cli download-data --output-dir data/downloaded
 1. 使用 GPU 加速
 2. 减少候选数量 (`num_candidates`)
 3. 使用 ESMFold 代替 AlphaFold
-
----
-
-*项目基于 ESM3_Nanobody_CDR3_Optimization_Project.md 文档构建*
